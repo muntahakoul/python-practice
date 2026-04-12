@@ -1,0 +1,2 @@
+str= "I AM MUNTAHA"
+print(str.replace("MUNTAHA", "DANIYAL"))
