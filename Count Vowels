@@ -1,0 +1,7 @@
+text = "hello"
+count = 0
+for ch in text:
+    if ch in "aeiou":
+        continue
+    count+=1
+print(count)
