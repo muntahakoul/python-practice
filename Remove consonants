@@ -1,0 +1,6 @@
+text = input("enter the text:")
+new_text =" "
+for ch in text:
+    if ch  in "aeiou":
+        new_text+= ch
+print(new_text)
