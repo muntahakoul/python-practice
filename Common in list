@@ -1,0 +1,8 @@
+a = list(map(int, input("enter the number a :").split()))
+b = list(map(int, input("enter the number b:").split()))
+print(a , b)
+common = [ ]
+for n in a:
+    if  n in b and n not in common:
+        common.append(n)
+print(common)
